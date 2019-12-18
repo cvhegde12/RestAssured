@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8133" started-at="2019-12-18T02:47:34Z" finished-at="2019-12-18T02:47:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8133" started-at="2019-12-18T02:47:34Z" finished-at="2019-12-18T02:47:42Z">
+      <class name="RestAssured.GetRequest">
+        <test-method status="PASS" signature="assuredDemo()[pri:0, instance:RestAssured.GetRequest@7fad8c79]" name="assuredDemo" duration-ms="4565" started-at="2019-12-18T02:47:34Z" finished-at="2019-12-18T02:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assuredDemo -->
+      </class> <!-- RestAssured.GetRequest -->
+      <class name="BDDValidation.BDDValidation">
+        <test-method status="PASS" signature="equalToFunctionArrayObject()[pri:0, instance:BDDValidation.BDDValidation@4df828d7]" name="equalToFunctionArrayObject" duration-ms="1667" started-at="2019-12-18T02:47:40Z" finished-at="2019-12-18T02:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalToFunctionArrayObject -->
+      </class> <!-- BDDValidation.BDDValidation -->
+      <class name="RestAssured.PostRequest">
+        <test-method status="PASS" signature="postRequest()[pri:0, instance:RestAssured.PostRequest@71a794e5]" name="postRequest" duration-ms="665" started-at="2019-12-18T02:47:38Z" finished-at="2019-12-18T02:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+      </class> <!-- RestAssured.PostRequest -->
+      <class name="RestAssured.PutRequest">
+        <test-method status="PASS" signature="putRequest()[pri:0, instance:RestAssured.PutRequest@5e25a92e]" name="putRequest" duration-ms="589" started-at="2019-12-18T02:47:39Z" finished-at="2019-12-18T02:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putRequest -->
+      </class> <!-- RestAssured.PutRequest -->
+      <class name="RestAssured.DeleteRequest">
+        <test-method status="PASS" signature="deleteRequest()[pri:0, instance:RestAssured.DeleteRequest@76329302]" name="deleteRequest" duration-ms="596" started-at="2019-12-18T02:47:39Z" finished-at="2019-12-18T02:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRequest -->
+      </class> <!-- RestAssured.DeleteRequest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

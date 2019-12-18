@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="RestAssured.GetRequest"/>
+      <class name="RestAssured.PostRequest"/>
+      <class name="RestAssured.DeleteRequest"/>
+      <class name="RestAssured.PutRequest"/>
+      <class name="BDDValidation.BDDValidation"/>
+      <class name="RestAssured.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
